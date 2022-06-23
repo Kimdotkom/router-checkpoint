@@ -16,7 +16,8 @@ root.render(
   <Route path="/" element={<App />} />
   <Route path="Contact" element={<Contact />} />
   <Route path="Category" element={<Category />} />
-  <Route path="Description" element={<Description />} />
+  
+  <Route path='Description/:id' element={<Description />} />
   </Routes>
   </BrowserRouter>
 );
